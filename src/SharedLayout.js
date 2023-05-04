@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 import TeacherSidebar from './Components/TeacherSidebar/TeacherSidebar';
 import AdminSidebar from './Components/AdminSidebar/AdminSidebar';
 
-const userType = 'teacher';
+const userType = 'admin';
 
 const SharedLayout = () => {
   return (
