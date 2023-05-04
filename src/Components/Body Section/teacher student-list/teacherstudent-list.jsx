@@ -21,6 +21,7 @@ function TeacherstudentList() {
   useEffect(() => {
     const getStudents = async () => {
       const data = await getDocs(studentsCollectionRef);
+      // map students for set Students
       setStudents(data.docs.map((doc) => ({ ...doc.data(), studentid: doc.studentid })));
     
     };
