@@ -1,6 +1,10 @@
 import React from "react";
 import image from "../../../images/event.png";
 import Wrapper from "./eventStyles";
+import Viewevent from "../View event/Viewevent";
+
+
+
 const event = () => {
   return (
     <Wrapper>
@@ -65,6 +69,10 @@ const event = () => {
             </form>
           </div>
         </div>
+      </div>
+
+      <div>
+     <Viewevent />
       </div>
     </Wrapper>
   );

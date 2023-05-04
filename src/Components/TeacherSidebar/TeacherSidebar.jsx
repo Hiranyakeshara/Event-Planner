@@ -62,33 +62,33 @@ const TeacherSidebar = () => {
             </p>
           </Link>
 
-          <Link to='/complaint' className='listItem'>
+          {/*<Link to='/complaint' className='listItem'>
             <p className='menuLink flex'>
               <SlSocialDropbox className='icon' />
-              <span className='smallText'>Complaints</span>
+              <span className='smallText'></span>
             </p>
-          </Link>
+  </Link>*/}
 
-          {/* <Link to='/result' className='listItem'>
+           <Link to='/result' className='listItem'>
             <p className='menuLink flex'>
               <IoMdCheckboxOutline className='icon' />
               <span className='smallText'>Results</span>
             </p>
-          </Link> */}
+          </Link> 
 
-          {/* <Link to='/gallery' className='listItem'>
+           <Link to='/gallery' className='listItem'>
             <p className='menuLink flex'>
               <TfiGallery className='icon' />
               <span className='smallText'>Photo Gallery</span>
             </p>
-          </Link> */}
+          </Link> 
 
-          {/* <Link to='/reminders' className='listItem'>
+           <Link to='/reminders' className='listItem'>
             <p className='menuLink flex'>
               <TfiAlarmClock className='icon' />
               <span className='smallText'>Reminders</span>
             </p>
-          </Link> */}
+          </Link>
 
           <Link to='/Notice' className='listItem'>
             <p className='menuLink flex'>
