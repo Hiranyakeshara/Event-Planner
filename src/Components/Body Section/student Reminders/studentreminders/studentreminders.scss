@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background: #00a9d4;
+  height: 60px;
+  position: relative;
+}
+.icon {
+  cursor: pointer;
+  margin-right: 50px;
+  line-height: 60px;
+}

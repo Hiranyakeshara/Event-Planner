@@ -1,0 +1,47 @@
+.cont {
+  margin-bottom: 40px;
+}
+.contents {
+  margin-top: 25px;
+
+  padding: 25px;
+}
+.input-box {
+  padding: 20px;
+  align-items: right;
+  background: linear-gradient(135deg, #71b7e6, #187bcd, #fff);
+}
+.button {
+  height: 45px;
+  margin: 45px 12px;
+}
+.button input {
+  height: 100%;
+  width: 25%;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(135deg, #71b7e6, #187bcd);
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  align-content: center;
+}
+.button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #187bcd);
+}
+
+.buttons input {
+  margin-top: 10px;
+  background-color: green !important;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: 0px;
+  margin-bottom: 10px;
+}
+.detail {
+  border: 1px dashed #c6c2c2;
+  padding: 3px;
+}
