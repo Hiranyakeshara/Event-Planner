@@ -35,7 +35,6 @@ const Addstudent = () => {
         console.error("Error adding student: ", error);
       });
   };
-
   return (
     <Wrapper>
       <div>
