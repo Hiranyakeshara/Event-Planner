@@ -30,9 +30,7 @@ import Viewfoodarrangement from './Components/Body Section/viewfoodarrangement/v
 import Attendancereport from './Components/Body Section/Attendance-report/attendancereport';
 import Schoolinfo from './Components/Body Section/School/school';
 import Addstudent from './Components/Body Section/Addstudent/addstudent';
-
-
-const userType = 'student';
+const userType = 'admin';
 
 const App = () => {
   return (
@@ -82,5 +80,6 @@ const App = () => {
     </Router>
   );
 };
+
 
 export default App;

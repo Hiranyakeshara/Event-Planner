@@ -8,7 +8,7 @@ import {
   deleteDoc,
   doc,
 } from "firebase/firestore";
-import { db } from '../../../firebase.config';
+import db  from '../../../firebase.config';
 
 //import styles from "./teacherstudent-list.scss";
 import Wrapper from './teacherstudent-listStyles';
@@ -27,8 +27,6 @@ function TeacherstudentList() {
     };
 
     getStudents();
-
-
 
   },[]);
 
